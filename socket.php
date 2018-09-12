@@ -59,7 +59,7 @@ while (true) {
                     // Ping every 5 seconds for live connections
                     if (false === socket_write($v, 'PING')) {
                         // Close non-responsive connection
-                        session_close($clients[$k]);
+                        socket_close($clients[$k]);
                         // Remove from active connections array
                         unset($clients[$k]);
                     }
