@@ -1,7 +1,7 @@
 # PHP Sockets
 ## Multiple connections non blocking
 
-Minimal PHP working server socket handler for multiple client connections. Non blocking.
+Minimal PHP working socket server handler for multiple client connections. Non blocking.
 
 
 ### Other useful tools
